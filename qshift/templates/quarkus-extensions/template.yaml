@@ -367,3 +367,7 @@ spec:
       - title: Open the Catalog Info Component
         icon: catalog
         entityRef: ${{ steps.register.output.entityRef }}
+    text:
+      - title: More information
+        content: |
+          **Entity URL:** `${{ steps['publish'].output.remoteUrl }}`
