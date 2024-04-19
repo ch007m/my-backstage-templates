@@ -67,9 +67,10 @@ integrations:
         message: ${{ parameters.myInput | base64 }}
 ```
 
-## Template filter template
+## Custom parameter pipe filters
 
-**Description**: Template to play with a `TemplateFilter` able to `base64` a template's field `${{ parameters.myInput | base64 }}`. The filter(s) have been created in a Backend module (aka external plugin) loaded by the new backend system using `backend.add(import('@internal/backend-module-scaffolder-my-custom-filter'))`.  
+**Description**: Template to play with a custom Template Filter able to `base64` a template's field `${{ parameters.myInput | base64 }}`. 
+The filter(s) are backed by a Backend module (aka external plugin) loaded by the new backend system using `backend.add(import('@internal/backend-module-scaffolder-my-custom-filter'))`.  
 
 **Remark**: This template will validate the doc that we will develop according to this ticket [24002](https://github.com/backstage/backstage/issues/24002) using the instructions: https://github.com/ch007m/backstage-backend-module?tab=readme-ov-file#howto-guide-backend-module-and-template-filter
 
