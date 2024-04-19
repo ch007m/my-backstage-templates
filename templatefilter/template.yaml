@@ -1,8 +1,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: Template Filter
-  title: Template to test templatefilter
+  name: template-filter
+  title: Template to test template filter
 spec:
   owner: guests
   type: service
