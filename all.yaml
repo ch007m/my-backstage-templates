@@ -8,4 +8,5 @@ spec:
     - ./org.yaml
     - ./entities.yaml
     - ./dummy/template.yaml
+    - ./templatefilter/template.yaml
     - ./gitea/template.yaml
