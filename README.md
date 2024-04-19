@@ -54,7 +54,7 @@ integrations:
 
 **Description**: Template to play with a `TemplateFilter` able to `base64` a template's field. This template will validate the doc according to this ticket [24002](https://github.com/backstage/backstage/issues/24002). 
 
-[**Template file**](./dummy/template.yaml)
+[**Template file**](./templatefilter/template.yaml)
 
 ```yaml
   steps:
